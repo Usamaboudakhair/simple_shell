@@ -130,5 +130,6 @@ int main(int argc, char *argv[])
 
 	free_env();
 	free_alias_list(aliases);
+	free_env();
 	return (*exe_ret);
 }
